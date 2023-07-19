@@ -1,0 +1,95 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #87bba2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#backgroud{
+    background-color: #364958;
+    background-color: #3b6064;
+    background-color: #55828b;
+    background-color: #87bba2;
+    background-color: #c9e4ca;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#login1{
+    display: flex;
+    width: 45%;
+    margin: 0px  70px;
+
+}
+.card {
+    background-color: #55828b;
+    padding: 60px;
+    border-radius: 50px;
+    width:300px;
+}
+
+.card-header {
+    padding-bottom: 20px;
+    opacity: 0.8;
+    color: white;
+}
+.card-header p{
+    font-size: 12px;
+    color: white;
+}
+
+.card-header::after {
+    background-color: white;
+    display: block;
+}
+
+.card-content label {
+    color: white;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding:10px 0px;
+}
+
+.card-content-area input {
+    margin-top: 10px;
+    padding:0 2px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer .submit{
+    width: 100%;
+    height: 40px;
+    background-color: #364958;
+    border:none;
+    border-radius: 6px;
+    color: white;
+    margin: 10px 0;
+}
+
+.card-footer a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.card-footer p{
+    color: #3b6064;
+    font-size: 13px;
+    text-align: center;
+}
